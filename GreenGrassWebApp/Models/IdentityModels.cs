@@ -35,5 +35,7 @@ namespace GreenGrassWebApp.Models
         public System.Data.Entity.DbSet<GreenGrassWebApp.Models.RequestHistory> RequestHistories { get; set; }
 
         public System.Data.Entity.DbSet<GreenGrassWebApp.Models.UserProfile> UserProfiles { get; set; }
+
+        public System.Data.Entity.DbSet<GreenGrassWebApp.Models.TableHistoryRequest> TableHistoryRequests { get; set; }
     }
 }

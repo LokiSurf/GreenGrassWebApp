@@ -173,4 +173,8 @@ C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\bin\Microsoft.Owin.
 C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.dll
 C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.pdb
-C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.csprojResolveAssemblyReference.cache
+C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.Migrations.InitialCreate.resources
+C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.csproj.GenerateResource.Cache
+C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.Migrations.change_request_model.resources
+C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.Migrations.change_request_model1.resources
+C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.Migrations.change_request_modell.resources
