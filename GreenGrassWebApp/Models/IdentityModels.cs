@@ -29,5 +29,9 @@ namespace GreenGrassWebApp.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<GreenGrassWebApp.Models.Request> Requests { get; set; }
+
+        public System.Data.Entity.DbSet<GreenGrassWebApp.Models.RequestHistory> RequestHistories { get; set; }
     }
 }
