@@ -46,16 +46,16 @@ namespace GreenGrassWebApp.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,TypeReguest,Name,LastName,Team,Date,Days")] Request request)
+        public ActionResult Create([Bind(Include = "Id,TypeReguest,Date,Days")] TableHistoryRequest request)
         {
             if (ModelState.IsValid)
             {
-                db.Requests.Add(request);
+                db.TableHistoryRequests.Add(request);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "TableHistoryRequests");
             }
 
-            return View(request);
+            return View();
         }
 
         // GET: Requests/Edit/5
@@ -78,7 +78,7 @@ namespace GreenGrassWebApp.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,TypeReguest,Name,LastName,Team,Date,Days")] Request request)
+        public ActionResult Edit([Bind(Include = "Id,TypeReguest,Name,LastName,Team,Date,TakenDays")] Request request)
         {
             if (ModelState.IsValid)
             {

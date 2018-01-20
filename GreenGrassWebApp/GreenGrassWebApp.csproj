@@ -231,6 +231,14 @@
     <Compile Include="Migrations\201801141428356_change_request_modell.Designer.cs">
       <DependentUpon>201801141428356_change_request_modell.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801201113429_ModelChange.cs" />
+    <Compile Include="Migrations\201801201113429_ModelChange.Designer.cs">
+      <DependentUpon>201801201113429_ModelChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801201126408_ModelChange1.cs" />
+    <Compile Include="Migrations\201801201126408_ModelChange1.Designer.cs">
+      <DependentUpon>201801201126408_ModelChange1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Request.cs" />
@@ -318,6 +326,7 @@
     <Content Include="Views\UserProfiles\Index.cshtml" />
     <Content Include="Views\TableHistoryRequests\Index.cshtml" />
     <Content Include="Views\Requests\Create.cshtml" />
+    <Content Include="Views\TableHistoryRequests\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -342,6 +351,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801141428356_change_request_modell.resx">
       <DependentUpon>201801141428356_change_request_modell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801201113429_ModelChange.resx">
+      <DependentUpon>201801201113429_ModelChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801201126408_ModelChange1.resx">
+      <DependentUpon>201801201126408_ModelChange1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

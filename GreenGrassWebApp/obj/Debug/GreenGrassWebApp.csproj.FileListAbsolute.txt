@@ -178,3 +178,5 @@ C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGras
 C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.Migrations.change_request_model.resources
 C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.Migrations.change_request_model1.resources
 C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.Migrations.change_request_modell.resources
+C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.Migrations.ModelChange.resources
+C:\Users\RENT\Source\Repos\GreenGrassWebApp\GreenGrassWebApp\obj\Debug\GreenGrassWebApp.Migrations.ModelChange1.resources

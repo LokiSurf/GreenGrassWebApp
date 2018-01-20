@@ -10,6 +10,6 @@ namespace GreenGrassWebApp.Models
         public string Id { get; set; }
         public string TypeReguest { get; set; } // holiday, seek leave
         public string Date { get; set; }
-        public string Days { get; set; }
+        public string TakenDays { get; set; }
     }
 }
